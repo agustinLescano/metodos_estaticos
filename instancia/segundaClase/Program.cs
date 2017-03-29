@@ -20,6 +20,9 @@ namespace segundaClase
             au2 = new Auto();
             au3 = new Auto();
             au4 = new Auto();
+            Rueda Mirueda = new Rueda();
+            Rueda Mirueda2 = new Rueda("buenisima");
+            Rueda Mirueda3 = new Rueda(22);
             
             miAuto = new Auto();
             Auto.CantidadDeInstancias = 0;

@@ -8,8 +8,8 @@ namespace segundaClase
 {
     class Rueda
     {
-        public string Marca;
-        public int Tamaño;
+        private string Marca;
+        private int Tamaño=0;
         public Rueda()
             { 
 
@@ -28,5 +28,25 @@ namespace segundaClase
 
                 
             }
+        public void MostrarRueda()
+        {
+            Console.WriteLine("la masca es " + this.Marca);
+            Console.WriteLine("el tamaño es " + this.Tamaño);
+        }
+        public Rueda(string marca)
+        {
+            this.Marca = marca;
+           
+        }
+        public Rueda(int tamaño):this()
+        {
+          
+            this.Tamaño = tamaño;
+        }
+        public Rueda(int tamaño , string marca):this(tamaño)
+        {
+           
+            this.Marca = marca;
+        }
     }
 }
