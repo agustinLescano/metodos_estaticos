@@ -26,6 +26,15 @@ namespace segundaClase
             
             miAuto = new Auto();
             Auto.CantidadDeInstancias = 0;
+            Kilometros kilometro1;
+            Kilometros kilometro2;
+            Kilometros aux;
+           aux = new Kilometros(5);
+            kilometro1 = new Kilometros(10);
+           kilometro2 = new Kilometros(5);
+           aux = kilometro1 + kilometro2;
+          // int dato = kilometro1 + 33;
+
            
            
           /*
