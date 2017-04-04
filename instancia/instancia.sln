@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "segundaClase", "segundaClase\segundaClase.csproj", "{3D4EEA7A-9B9B-4C81-9E78-9C0BB11A228C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{339CFF08-7C31-4D1C-969B-7B0D35FC8DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clase", "clase\clase.csproj", "{F388BB36-AD6E-40F5-8E19-7E6C33946A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{3D4EEA7A-9B9B-4C81-9E78-9C0BB11A228C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4EEA7A-9B9B-4C81-9E78-9C0BB11A228C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4EEA7A-9B9B-4C81-9E78-9C0BB11A228C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339CFF08-7C31-4D1C-969B-7B0D35FC8DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339CFF08-7C31-4D1C-969B-7B0D35FC8DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339CFF08-7C31-4D1C-969B-7B0D35FC8DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339CFF08-7C31-4D1C-969B-7B0D35FC8DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F388BB36-AD6E-40F5-8E19-7E6C33946A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F388BB36-AD6E-40F5-8E19-7E6C33946A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F388BB36-AD6E-40F5-8E19-7E6C33946A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F388BB36-AD6E-40F5-8E19-7E6C33946A69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
