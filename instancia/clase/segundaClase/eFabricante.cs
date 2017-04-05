@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace segundaClase
 {
-    class Tiempo
+    enum eFabricante
     {
-        int Cantidad;
-       
-        public Tiempo(int cantidad)
-        {
-            this.Cantidad = cantidad;
-            
-        }
-
+        ford,
+        chevrolet,
+        honda,
+        
     }
 }
